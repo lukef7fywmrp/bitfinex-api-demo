@@ -2,26 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    @apply bg-gradient-to-tr from-[#18115E] to-[#3A0965] min-h-screen;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+  .tableHeaderCell {
+    @apply !text-white/90 !font-normal !text-base !px-8 !py-6;
+  }
+
+  .tableCellText {
+    @apply !text-base px-4 py-2.5 !text-[#675E82] !font-medium;
+  }
+
+  .button {
+    @apply text-[#675E82] px-4 py-2 border text-base font-bold border-[#9014DA] rounded-lg
+    hover:bg-[#3FE8BD] hover:!border-[#3FE8BD] hover:!text-[#240E1F] hover:border-b transition duration-200 ease-out;
+  }
 }
