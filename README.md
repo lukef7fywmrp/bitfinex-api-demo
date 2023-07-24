@@ -33,6 +33,12 @@ Additionally, we've employed clever Next.js optimization techniques and React Se
 
 In the Bitfinex API Demo project, we employ Next.js Streaming to optimize data loading and enhance user experience. Streaming breaks down the page's HTML into smaller chunks and progressively sends them from the server to the client. This allows parts of the page to be displayed sooner, without waiting for all data to load before rendering. As a result, the project achieves reduced Time To First Byte (TTFB), improved First Contentful Paint (FCP), and faster Time to Interactive (TTI), especially on slower devices. By leveraging Streaming, we ensure a seamless and efficient user interface.
 
+## Future Plans
+
+- Improve Responsiveness: The project will be made fully responsive to ensure seamless user experience across various devices and screen sizes.
+- Additional Features: More features will be added to enrich the capabilities of the application.
+- UI Enhancements: The user interface will undergo further refinements and improvements for a polished look.
+
 ## Getting Started
 
 To run the project locally, follow these steps:
