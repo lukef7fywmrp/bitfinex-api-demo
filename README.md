@@ -1,58 +1,51 @@
 # Bitfinex API Demo
 
-Bitfinex API Demo is a web application built with Next.JS and TailwindCSS, which provides a simple demonstration of how to use the Bitfinex API to fetch financial data from the Bitfinex exchange. The main goal of this project is to showcase the capabilities of integrating with the Bitfinex API and visualizing the data in an easy-to-understand manner.
+![Bitfinex API Demo](https://your-project-image-url.com)
 
-![Project Demo](url_to_project_demo.gif) (If applicable)
+A demo web application that utilizes the Bitfinex API to fetch tickers, trades, candles, and single ticker data. The project is built with Next.js, Tailwind CSS, and TypeScript, and leverages lightweight-charts for displaying interactive and visually appealing charts. Tremor.so is used for efficient data streaming and optimizing server-side rendering.
 
-## Table of Contents
+## Live Project
 
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Usage](#api-usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+Check out the live demo of the Bitfinex API Demo: [Live Project](https://bitfinex-api-demo.vercel.app/)
 
-## Demo
+## Bitfinex API Documentation
 
-If you would like to see a live demo of the project, you can check it out [here](https://bitfinex-api-demo.vercel.app/).
+Explore the Bitfinex API documentation to learn more about available endpoints and data formats: [Bitfinex API Docs](https://docs.bitfinex.com/reference/rest-public-tickers)
+
+## Tech Used
+
+- Next.js
+- Tailwind CSS
+- TypeScript
+- Lightweight Charts
+- Tremor.so
 
 ## Features
 
-- [List the main features of your project]
+The Bitfinex API Demo project offers the following features:
 
-## Installation
+1. Fetch tickers data from Bitfinex API.
+2. Retrieve trade information using the API.
+3. Get candle data for visualizing price trends.
+4. Fetch data for a specific ticker using the API.
 
-To run this project locally, follow these steps:
+Additionally, we've employed clever Next.js optimization techniques and React Server Components to improve performance.
 
-1. Clone the repository: `git clone https://github.com/your_username/bitfinex-api-demo.git`
-2. Navigate to the project directory: `cd bitfinex-api-demo`
-3. Install the dependencies: `npm install` or `yarn install`
+## Streaming with Next.js
 
-## Usage
+In the Bitfinex API Demo project, we employ Next.js Streaming to optimize data loading and enhance user experience. Streaming breaks down the page's HTML into smaller chunks and progressively sends them from the server to the client. This allows parts of the page to be displayed sooner, without waiting for all data to load before rendering. As a result, the project achieves reduced Time To First Byte (TTFB), improved First Contentful Paint (FCP), and faster Time to Interactive (TTI), especially on slower devices. By leveraging Streaming, we ensure a seamless and efficient user interface.
 
-1. To start the development server, run: `npm run dev` or `yarn dev`
-2. Open your preferred web browser and visit: `http://localhost:3000`
+## Getting Started
 
-## API Usage
+To run the project locally, follow these steps:
 
-Bitfinex API Demo utilizes the Bitfinex API to fetch financial data. To use the API, you will need to sign up for a Bitfinex API key and replace the `API_KEY` and `API_SECRET` in the `.env` file with your own credentials.
+1. Clone the repository: `git clone https://github.com/your-username/Bitfinex-API-Demo.git`
+2. Navigate to the project directory: `cd Bitfinex-API-Demo`
+3. Install dependencies: `npm install`
+4. Run the development server: `npm run dev`
 
-You can find the official documentation for the Bitfinex API [here](https://docs.bitfinex.com/reference/rest-public-tickers).
+## Contribution
 
-## Technologies Used
+We welcome contributions to the Bitfinex API Demo project! If you find any issues or want to add new features, feel free to open a pull request.
 
-- Next.JS
-- TailwindCSS
-- Bitfinex API
-
-## Contributing
-
-Contributions are always welcome! If you want to contribute to Bitfinex API Demo, follow these steps:
-
-1. Fork the project (click the "Fork" button at the top right of the repository)
-2. Clone the forked repository to your local machine
-3. Make your changes and commit them to your forked repository
-4. Create a pull request from your forked repository to the original repository
+Before contributing, please ensure you've read the [Contribution Guidelines](CONTRIBUTING.md).
