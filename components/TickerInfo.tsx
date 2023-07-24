@@ -14,7 +14,7 @@ import {
 } from "@tremor/react";
 import Image, { StaticImageData } from "next/image";
 import genericIcon from "cryptocurrency-icons/32@2x/icon/generic@2x.png";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 type Props = {
   symbol: string;

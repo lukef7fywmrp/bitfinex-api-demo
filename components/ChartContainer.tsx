@@ -70,8 +70,6 @@ function ChartContainer({ candles }: Props) {
       },
     });
 
-    console.log(chart.current);
-
     const candleSeries = chart.current.addCandlestickSeries({
       upColor: "#22c55e",
       downColor: "#ef4444",

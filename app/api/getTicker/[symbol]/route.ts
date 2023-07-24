@@ -18,7 +18,7 @@ export async function GET(request: Request, { params: { symbol } }: Props) {
   const ticker = await response.json();
 
   if (ticker[0] === "error") {
-    return new Response(ticker[2], { status: 404 });
+    return NextResponse.json(ticker[2], { status: 404 });
   }
 
   return NextResponse.json(ticker, { status: 200 });
