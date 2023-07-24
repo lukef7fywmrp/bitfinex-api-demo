@@ -1,6 +1,6 @@
 # Bitfinex API Demo
 
-A demo web application that utilizes the Bitfinex API to fetch tickers, trades, candles, and single ticker data. The project is built with Next.js, Tailwind CSS, and TypeScript, and leverages lightweight-charts for displaying interactive and visually appealing charts. Tremor.so is used for efficient data streaming and optimizing server-side rendering.
+A demo web application that utilizes the Bitfinex API to fetch tickers, trades, candles, and single ticker data. The project is built with Next.js, Tailwind CSS, and TypeScript, and leverages lightweight-charts for displaying interactive and visually appealing charts. Tremor.so is used for tables and dashboard layouts.
 
 ## Live Project
 
@@ -33,12 +33,6 @@ Additionally, we've employed clever Next.js optimization techniques and React Se
 
 In the Bitfinex API Demo project, we employ Next.js Streaming to optimize data loading and enhance user experience. Streaming breaks down the page's HTML into smaller chunks and progressively sends them from the server to the client. This allows parts of the page to be displayed sooner, without waiting for all data to load before rendering. As a result, the project achieves reduced Time To First Byte (TTFB), improved First Contentful Paint (FCP), and faster Time to Interactive (TTI), especially on slower devices. By leveraging Streaming, we ensure a seamless and efficient user interface.
 
-## Future Plans
-
-- Improve Responsiveness: The project will be made fully responsive to ensure seamless user experience across various devices and screen sizes.
-- Additional Features: More features will be added to enrich the capabilities of the application.
-- UI Enhancements: The user interface will undergo further refinements and improvements for a polished look.
-
 ## Getting Started
 
 To run the project locally, follow these steps:
@@ -47,6 +41,12 @@ To run the project locally, follow these steps:
 2. Navigate to the project directory: `cd bitfinex-api-demo`
 3. Install dependencies: `npm install`
 4. Run the development server: `npm run dev`
+
+## Future Plans
+
+- Improve Responsiveness: The project will be made fully responsive to ensure seamless user experience across various devices and screen sizes.
+- Additional Features: More features will be added to enrich the capabilities of the application.
+- UI Enhancements: The user interface will undergo further refinements and improvements for a polished look.
 
 ## Contribution
 
