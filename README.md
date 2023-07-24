@@ -37,8 +37,8 @@ In the Bitfinex API Demo project, we employ Next.js Streaming to optimize data l
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/Bitfinex-API-Demo.git`
-2. Navigate to the project directory: `cd Bitfinex-API-Demo`
+1. Clone the repository: `git clone https://github.com/lukef7fywmrp/bitfinex-api-demo.git`
+2. Navigate to the project directory: `cd bitfinex-api-demo`
 3. Install dependencies: `npm install`
 4. Run the development server: `npm run dev`
 
