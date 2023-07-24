@@ -10,7 +10,7 @@
 
 @layer components {
   .tableHeaderCell {
-    @apply !text-white/90 !font-normal !text-base !px-8 !py-6;
+    @apply !text-white/90 !font-normal !text-base !px-8 !py-6 !bg-[#2A216A];
   }
 
   .tableCellText {
