@@ -1,4 +1,4 @@
-import TradesTable from "@/components/TradesTable";
+import Chart from "@/components/Chart";
 
 type Props = {
   params: { symbol: string };
@@ -10,9 +10,9 @@ function TickerPage({ params: { symbol } }: Props) {
   symbol = `t${decodeURIComponent(symbol).replace(":", "").toUpperCase()}`;
 
   return (
-    <div>
-      <TradesTable symbol={symbol} />
-    </div>
+    <section className="flex-1">
+      <Chart symbol={symbol} />
+    </section>
   );
 }
 

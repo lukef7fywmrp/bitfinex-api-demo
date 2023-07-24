@@ -43,6 +43,7 @@ async function TickersTable({ currency }: Props) {
             <TableHeaderCell className="tableHeaderCell">
               24h Volume
             </TableHeaderCell>
+            <TableHeaderCell className="tableHeaderCell">Link</TableHeaderCell>
           </TableRow>
         </TableHead>
         <TableBody className="!divide-y-0">

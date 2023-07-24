@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main>
+    <main className="max-w-7xl mx-auto">
       <TickersHeader />
       {children}
     </main>

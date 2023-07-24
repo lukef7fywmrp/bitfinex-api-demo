@@ -8,9 +8,9 @@ export const revalidate = 60;
 
 function CurrencyPage({ params: { currency } }: Props) {
   return (
-    <div className="border-2 border-t-0 border-[#420D90] rounded-xl rounded-t-none px-6 pb-6">
+    <section className="border-2 border-t-0 border-[#420D90] rounded-xl rounded-t-none px-6 pb-6">
       <TickersTable currency={currency} />
-    </div>
+    </section>
   );
 }
 
