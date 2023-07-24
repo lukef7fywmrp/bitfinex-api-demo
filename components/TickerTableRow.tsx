@@ -40,7 +40,7 @@ function TickerTableRow({ ticker, index, tradeToCurrency }: Props) {
   }
 
   return (
-    <TableRow className={`${index % 2 ? "bg-transparent" : "!bg-[#2A216A]"}`}>
+    <TableRow className={`${index % 2 ? "!bg-[#2A216A]" : "bg-transparent"}`}>
       <TableCell className="flex items-center !px-5">
         <Image
           src={tradeFromCurrencyIcon.src}
@@ -79,7 +79,7 @@ function TickerTableRow({ ticker, index, tradeToCurrency }: Props) {
       </TableCell>
       <TableCell>
         <Text className="tableCellText !font-semibold">
-          {formatNumber(volume, 2)}
+          {formatNumber(volume, 2)} {tradeFromCurrency}
         </Text>
       </TableCell>
 

@@ -16,7 +16,7 @@ function TradesTableRow({ index, trade }: Props) {
   });
 
   return (
-    <TableRow className={`${index % 2 ? "bg-transparent" : "!bg-[#2A216A]"}`}>
+    <TableRow className={`${index % 2 ? "!bg-[#2A216A]" : "bg-transparent"}`}>
       <TableCell>
         <Text className="tableCellText !text-white/90">{formattedTime}</Text>
       </TableCell>
