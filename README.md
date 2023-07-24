@@ -1,7 +1,5 @@
 # Bitfinex API Demo
 
-![Bitfinex API Demo](https://your-project-image-url.com)
-
 A demo web application that utilizes the Bitfinex API to fetch tickers, trades, candles, and single ticker data. The project is built with Next.js, Tailwind CSS, and TypeScript, and leverages lightweight-charts for displaying interactive and visually appealing charts. Tremor.so is used for efficient data streaming and optimizing server-side rendering.
 
 ## Live Project
