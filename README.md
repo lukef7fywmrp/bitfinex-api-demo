@@ -53,8 +53,6 @@ To keep data up-to-date, we use the `cache: 'no-store'` option, preventing outda
 
 Revalidation enhances user experience by providing timely and accurate market information without the need for manual refreshes. However, we carefully balance the revalidation interval to avoid excessive API requests.
 
-Your feedback is valuable in refining our caching strategy and revalidation interval for the best possible performance. We aim to deliver an exceptional web application for cryptocurrency enthusiasts and traders.
-
 ## Future Plans
 
 - Improve Responsiveness: The project will be made fully responsive to ensure seamless user experience across various devices and screen sizes.
